@@ -1,0 +1,32 @@
+export const stackData=[
+    {
+        year:"1980",
+        'apple':10,
+        'banana':20,
+        'pear':30
+    },
+    {
+        year:"1990",
+        'apple':40,
+        'banana':30,
+        'pear':10
+    },
+    {
+        year:"2000",
+        'apple':50,
+        'banana':10,
+        'pear':30
+    },
+    {
+        year:"2010",
+        'apple':20,
+        'banana':40,
+        'pear':10
+    },
+    {
+        year:"2020",
+        'apple':80,
+        'banana':10,
+        'pear':90
+    }
+]

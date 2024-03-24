@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import LineChart from './components/LineChart';
+import BarChart from './components/BarChart';
+import GaugeChart from './components/GaugeChart';
+import TreeChart from './components/TreeChart';
+import GeoChart from './components/GeoChart';
+import StackBar from './components/StackBar';
+import StackArea from './components/StackArea';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <BarChart />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

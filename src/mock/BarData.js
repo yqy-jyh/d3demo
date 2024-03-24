@@ -1,0 +1,1 @@
+export const barData=[20,55,30,40,67,89,46]

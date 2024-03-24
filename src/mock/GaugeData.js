@@ -1,0 +1,1 @@
+export const gaugeData=[0.9,0.1]
